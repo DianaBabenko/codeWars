@@ -13,3 +13,11 @@ function solution(str){
 function removeChar(str) {
     return str.slice(1, -1);
 }
+//Count the Monkeys!
+function monkeyCount(n) {
+    arrayCount = []
+    for (let i = 1; i <= n; i++){
+        arrayCount.push(i)
+    }
+    return arrayCount;
+}
